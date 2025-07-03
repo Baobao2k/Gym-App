@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">TienGym</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unlock_your">Unlock your full potential with our app
+        where workouts become
+        extraordinary!</string>
+    <string name="Nourish">Nourish your body with healthy fuel
+        and sculpt your way to success with
+        our gym app</string>
+    <string name="together">Together we thrive, with a supportive
+        community by your side – powered by
+        our gym app!</string>
+    <string name="exper">Experience excellence in every
+        workout, as we bring you the ultimate
+        gym app for quality results!</string>
+    <string name="tell">Tell us about yourself!</string>
+    <string name="givegender">To give you a better experience we need
+        to know your gender</string>
+    <string name="old">How old are you ?</string>
+    <string name="help">This helps us create your personalized plan</string>
+
+
+    <!--    -->
+    <string name="dwfox_git">https://github.com/dwfox/DWRulerView</string>
+    <string name="dwfox_blog">http://dwfox.tistory.com/50</string>
+    <string name="navigation_draw_open">Open Navigation Drawer</string>
+    <string name="navigation_draw_close">Close Navigation Drawer</string>
+
+    <string name="bmi_label">BMI: %f</string>
+    <!-- res/values/arrays.xml -->
+    <string-array name="levels_array">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="session_array">
+        <item>morning</item>
+        <item>noon</item>
+        <item>night</item>
+    </string-array>
+    <string-array name="day_array">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+        <item>Day 7</item>
+
+    </string-array>
+
+    <string name="link_instagram">
+        <a href="https://www.instagram.com/"> <u>Instagram</u>.</a>
+    </string>
+    <string name="link_facebook">
+        <a href="https://www.facebook.com/profile.php?id=100041273850472">Facebook</a>
+    </string>
+    <string name="link_linkedin">
+        <a href="https://www.linkedin.com/in/nguyen-thanh-tien-a5150b27b/">Linkedin</a>
+    </string>
+    <string name="link_twitter">
+        <a style="text-decoration: underline" href="https://www.instagram.com/">Twitter</a>
+    </string>
+    <string name="link_playstore">
+        <a href="#">Play Store</a>
+    </string>
+
+</resources>

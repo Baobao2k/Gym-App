@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.NOTIFICATION_LISTENER_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_black"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_HoTroTapLuye"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:fullBackupContent"
+        tools:targetApi="31">
+        <activity
+            android:name=".gym.User_screen.User_Book_pt_time_Activity"
+            android:exported="false" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDzLjflSf2C_37Lv2x4l50jQcNWpTYmvis" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".gym.User_screen.User_feedback_rate_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.Admin.Admin_Browser_End_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.User_screen.User_Follow_Us_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.Admin.Admin_Approve_Registration_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.PTrainer.PTrainer_Update_Level_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.User_screen.User_Repair_Inf_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.PTrainer.Upload_gif_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.User_screen.Pro_StartPlan_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.User_screen.ProChil_Inf_NextBack_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.User_screen.User_listPro_ProgramChild_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.User_screen.User_listPro_Day_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.User_screen.User_PT_Inf_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.User_screen.User_Mess_Chat_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.login_regis.Register_OTP_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gym.login_regis.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.User_screen.User_Main_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.login_regis.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".gym.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".gym.notification.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
